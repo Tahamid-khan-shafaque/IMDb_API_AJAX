@@ -9,7 +9,7 @@ function performSearch() {
     url: `https://imdb8.p.rapidapi.com/auto-complete?q=${searchQuery}`,
     method: 'GET',
     headers: {
-      'X-RapidAPI-Key': 'df0f792a73msh8352e5f547fa804p1cc285jsn24e9daadcbdd',
+      'X-RapidAPI-Key': 'use_your_API_key',
       'X-RapidAPI-Host': 'imdb8.p.rapidapi.com',
     },
     dataType: 'json',
