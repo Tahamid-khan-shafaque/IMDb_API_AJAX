@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+    <title>Document</title>
+    <style>
+        /* CSS styles for the movie list */
+        .movies {
+            width: 100%;
+            display: flex;
+            flex-wrap: wrap;
+        }
+
+        .movies li {
+            flex: 1;
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            list-style: none;
+            margin: 10px;
+            padding: 15px;
+            border-radius: 12px;
+            text-align: center;
+            background: #272727;
+            margin-bottom: 10px;
+        }
+
+        .movies li img {
+            max-width: 300px;
+            border-radius: 12px;
+        }
+
+        .movies li h2 {
+            margin-top: auto;
+            color: #fff;
+            font-size: 1.8rem;
+            padding: 0px 0px 0;
+        }
+    </style>
+</head>
+<body>
+    <div>
+        <input type="text" id="searchInput" placeholder="Enter search query">
+        <button id="searchButton">Search</button>
+      </div>
+      
+      <ul class="movies"></ul>
+    <script src="main.js"></script>
+</body>
+</html>
